@@ -1,0 +1,22 @@
+//1.butterKnife 工具类不能放在Library中，否则无法使用
+2.完善 butternife 在library中的使用：
+2.1:  project：
+dependencies {
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.5.1'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+    }
+2.2 library:
+apply plugin: 'com.android.library'
+apply plugin: 'com.jakewharton.butterknife'
+apply plugin: 'android-apt'
+  dependencies {
+    compile 'com.jakewharton:butterknife:8.5.1'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+    }
+2.3 app：
+apply plugin: 'android-apt'
+dependencies {
+    compile 'com.jakewharton:butterknife:8.5.1'
+    apt 'com.jakewharton:butterknife-compiler:8.5.1'
+    }
+
