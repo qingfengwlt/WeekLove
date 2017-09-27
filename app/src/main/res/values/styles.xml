@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TabView">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="TitleBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/titlebar_height</item>
+        <!--<item name="android:background">@drawable/layer_titlebar_bg</item>-->
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="bgatitlebar_leftAndRightTextColor">@color/white</item>
+        <item name="bgatitlebar_leftAndRightTextSize">@dimen/textSize_16</item>
+        <item name="bgatitlebar_titleTextColor">@color/white</item>
+        <item name="bgatitlebar_titleTextSize">@dimen/textSize_18</item>
+        <item name="bgatitlebar_leftAndRightPadding">@dimen/middle</item>
+
+
+        <!-- 下面这项只是测试用的，真实项目删掉 -->
+        <item name="android:layout_marginBottom">7dp</item>
+    </style>
+</resources>

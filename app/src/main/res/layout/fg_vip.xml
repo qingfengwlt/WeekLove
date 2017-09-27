@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:orientation="vertical"
+    >
+ <include layout="@layout/tab_main_title"/>
+ <RelativeLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:background="@color/white"
+     >
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="全部区域"
+     android:padding="@dimen/middle"
+     />
+
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="批量约聊"
+     android:padding="@dimen/middle"
+     android:layout_alignParentRight="true"
+     />
+ </RelativeLayout>
+ <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
+     android:id="@+id/refresh_vip"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+  <ListView
+      android:id="@+id/lv_vip"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="#fff" />
+ </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+
+</LinearLayout>
