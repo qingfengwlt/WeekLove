@@ -15,7 +15,6 @@ import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
 
-import pc.wlt.com.superlibrary.R;
 import pc.wlt.com.superlibrary.widget.TitleBar;
 
 /**
@@ -55,7 +54,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
      * @param title
      */
     protected void initTitleBar(TitleBar titleBar, String title){
-        initTitleBar(titleBar,"", R.drawable.back_green,title,"",-1);
+//        initTitleBar(titleBar,"", R.drawable.back_green,title,"",-1);
     }
 
     /**

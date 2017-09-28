@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_perfect_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.menghang.wlt.weeklove.activity.PerfectInfoActivity">
+    <LinearLayout
+        android:id="@+id/ll_register_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <cn.bingoogolapple.titlebar.BGATitleBar
+            android:id="@+id/fg_register_title"
+            style="@style/TitleBar"
+            app:bgatitlebar_titleText="注册"
+            app:bgatitlebar_titleTextColor="@color/gray"
+            app:bgatitlebar_leftDrawable="@drawable/back_green"
+            android:background="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/gray"
+            />
+    </LinearLayout>
+</RelativeLayout>

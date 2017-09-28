@@ -162,5 +162,12 @@
     <color name="gray_8f">#8f8f8f</color><!--灰色8f -->
     <!-- common end -->
 
-
+    <!-- 登陆界面 -->
+    <color name="login_login_button_enable_color">#fffded</color>
+    <color name="login_login_button_disable_color">#bdbdbd</color>
+    <color name="login_register_text_color">#3799df</color>
+    <color name="login_input_container_bg">#ffffffff</color>
+    <color name="login_forget_password_text_color">#646464</color>
+    <color name="login_quick_login_text_color">#8f8f8f</color>
+    <color name="login_input_dividing_line_bg">#cbcbcb</color>
 </resources>

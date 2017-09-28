@@ -101,7 +101,7 @@ public class WebUtil {
         @Override
         public void onReceivedError(WebView view, WebResourceRequest request, WebResourceError error) {
             super.onReceivedError(view, request, error);
-            ToastUtils.showToast(mWv.getContext(),"同步失败，请稍候再试");
+            ToastUtils.showMsg(mWv.getContext(),"同步失败，请稍候再试");
 //            view.loadUrl("file:///android_asset/error.html");
 //            mWebview.loadUrl("file:///android_asset/errorpage/error.html");
             if (mOnWebProgressListener!=null){
@@ -112,7 +112,7 @@ public class WebUtil {
         @Override
         public void onReceivedError(WebView view, int errorCode, String description, String failingUrl) {
             super.onReceivedError(view, errorCode, description, failingUrl);
-            ToastUtils.showToast(mWv.getContext(),"同步失败，请稍候再试");
+            ToastUtils.showMsg(mWv.getContext(),"同步失败，请稍候再试");
 //            view.loadUrl("file:///android_asset/error.html");
             if (mOnWebProgressListener!=null){
                 mOnWebProgressListener.onWebProgressFinish();

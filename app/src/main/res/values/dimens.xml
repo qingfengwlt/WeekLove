@@ -15,10 +15,20 @@
     <dimen name="middle">10dp</dimen>
     <dimen name="large">15dp</dimen>
     <dimen name="large_large">20dp</dimen>
-
+    <dimen name="huge">30dp</dimen>
     <dimen name="titlebar_height">44dp</dimen>
 
-    <dimen name="btn_radius">2dp</dimen>
 
+    <dimen name="margin_5">5dp</dimen>
 
+    <!-- 登陆界面 -->
+    <dimen name="login_dividing_line_margin_top">15dp</dimen>
+    <dimen name="login_button_height">44dp</dimen>
+    <dimen name="login_button_margin_left_right">20dp</dimen>
+    <dimen name="login_button_margin_top">25dp</dimen>
+    <dimen name="login_forget_password_margin_right_top">15dp</dimen>
+    <dimen name="login_quick_login_margin_text_top">15dp</dimen>
+    <dimen name="login_quick_login_margin_left_right">15dp</dimen>
+    <dimen name="login_quick_login_img_margin_left_right">20dp</dimen>
+    <dimen name="login_icon_size">75dp</dimen>
 </resources>
